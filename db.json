@@ -1,0 +1,25 @@
+export const DATA = {   //типа ответ сервера, эмулируем собранный из данных БД json
+    dayPlans:[
+        {
+            id: 1,
+            userID: 1,
+            targetDate: '2020-12-27',
+            planType: 1,
+            hours: [7,12,13,15],
+        },
+        {
+            id: 2,
+            userID: 1,
+            targetDate: '2020-05-13',
+            planType: 1,
+            hours: [7,12,13,15],
+        },
+        {
+            id: 3,
+            userID: 1,
+            targetDate: '2020-05-13',
+            planType: 1,
+            hours: [7,12,13,15],
+        },
+    ]
+};
